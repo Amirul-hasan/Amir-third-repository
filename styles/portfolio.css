@@ -59,9 +59,9 @@ nav a{
 /* header related style */
 .header{
     background-color: #dfaa84;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,bottom left;
     
 }
 .banner{
@@ -103,8 +103,8 @@ main section{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: #f7bb91;
-    margin: 130px 0;
+    background-color: #f8c6a3;
+    margin: 70px 40px 70px 40px;
 }
 .about-info-container{
     display: flex;
@@ -128,6 +128,7 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.06);
+    background-color: #f2c3a4;
 }
 .skill-description{
     color: #474747;
@@ -138,10 +139,7 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
-    display: flex;
-    gap: 50px;
-}
+
 .resume-item-title{
     color: #474747;
     font-size: 25px;
@@ -158,7 +156,36 @@ main section{
 .resume-container hr{
     margin: 30px;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #f0b289;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.contuct input[type="text"], .contuct input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747;
+    background-color: white;
+    border: 0;
+    width: 100%;
+
+}
+
+.social-links a{
+    margin-right: 25px;
 }
